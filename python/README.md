@@ -5,9 +5,12 @@ Python
 For zones with daylight savings time, python standard libraries do not provide a standard class, so it is necessary to use a third party library. pytz and dateutil are popular libraries providing time zone classes.
 
 ~~~python
-from datetime import datetime, timedelta import pytz
+from datetime import datetime, timedelta 
+import pytz
 PT = pytz.timezone('US/Pacific')
-dt_pst = PT.localize(datetime(2015, 1, 1, 12)) dt_pdt = PT.localize(datetime(2015, 11, 1, 0, 30)) print(dt_pst)
+dt_pst = PT.localize(datetime(2015, 1, 1, 12)) 
+dt_pdt = PT.localize(datetime(2015, 11, 1, 0, 30)) 
+print(dt_pst)
 # 2015-01-01 12:00:00-08:00
 print(dt_pdt)
 # 2015-11-01 00:30:00-07:00

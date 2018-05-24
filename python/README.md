@@ -14,7 +14,8 @@ print(dt_pst)
 # 2015-01-01 12:00:00-08:00
 print(dt_pdt)
 # 2015-11-01 00:30:00-07:00
-dt_new = dt_pdt + timedelta(hours=3) # This should be 2:30 AM PST print(dt_new)
+dt_new = dt_pdt + timedelta(hours=3) 
+# This should be 2:30 AM PST print(dt_new)
 # 2015-11-01 03:30:00-07:00
 dt_corrected = PT.normalize(dt_new)
 print(dt_corrected)
@@ -23,12 +24,12 @@ print(dt_corrected)
 
 ## Run Server
 To start a server just execute the following command from your command line:
-~~~python
+~~~shell
 python -m http.server
 ~~~
 
 To consider a specific port we can set it like this:
-~~~python
+~~~shell
 python -m http.server 8080
 ~~~
 

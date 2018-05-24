@@ -1,6 +1,6 @@
 Python
 ========================
-# Daylight Saving
+## Daylight Saving
 
 For zones with daylight savings time, python standard libraries do not provide a standard class, so it is necessary to use a third party library. pytz and dateutil are popular libraries providing time zone classes.
 
@@ -19,4 +19,15 @@ dt_new = dt_pdt + timedelta(hours=3) # This should be 2:30 AM PST print(dt_new)
 dt_corrected = PT.normalize(dt_new)
 print(dt_corrected)
 # 2015-11-01 02:30:00-08:00
+~~~
+
+## Run Server
+To start a server just execute the following command from your command line:
+~~~python
+python -m http.server
+~~~
+
+To consider a specific port we can set it like this:
+~~~python
+python -m http.server 8080
 ~~~

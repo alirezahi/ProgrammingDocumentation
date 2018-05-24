@@ -31,3 +31,6 @@ To consider a specific port we can set it like this:
 ~~~python
 python -m http.server 8080
 ~~~
+
+Why do we have to run a server? 
+Well, we can test our html file and its link so it will be alright

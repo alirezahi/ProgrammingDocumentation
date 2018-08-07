@@ -39,8 +39,22 @@ Well, we can test our html file and its link so it will be alright
 
 ## Chained Comparison
 We can use chain comparison in python without using logical operands. Like below:
-~~~python3
+~~~python
 a = 10
 print(3 < a < 20)
 >> True
+~~~
+
+## Chained function call
+You can call different function on same values like this:
+~~~python
+def hello(a,b):
+    return a + ' said hello to ' + b
+
+def bye(a,b):
+    return a + ' said bye to ' + b
+
+say_hello = True
+
+dialouge = (hello if say_hello else bye)('hi','jk')
 ~~~

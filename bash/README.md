@@ -15,3 +15,9 @@ And you can paste the removed text with ```ctrl+Y```.
 
 And to cut previous word you can use : ```ctrl+W```.
 
+
+## Git store
+With the following command you can store credential of git:
+~~~shell
+git config credential.helper store
+~~~

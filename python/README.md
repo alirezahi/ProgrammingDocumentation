@@ -35,3 +35,12 @@ python -m http.server 8080
 
 Why do we have to run a server? 
 Well, we can test our html file and its link so it will be alright
+
+
+## Chained Comparison
+We can use chain comparison in python without using logical operands. Like below:
+~~~python3
+a = 10
+print(3 < a < 20)
+>> True
+~~~

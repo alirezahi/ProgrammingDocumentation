@@ -58,3 +58,14 @@ say_hello = True
 
 dialouge = (hello if say_hello else bye)('hi','jk')
 ~~~
+
+## For else !!!
+You can use else for For to see if it didn't reach the break statement. Let's see how.
+~~~python3
+got = ['john', 'snow', 'khaleesi']
+for person in got:
+    if person == 'wow':
+        break
+else:
+    print('It didn't have any wow in it !')
+~~~

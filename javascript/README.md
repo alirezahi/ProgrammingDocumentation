@@ -40,4 +40,5 @@ It will show a ok cancle screen to ask from user to have some behaviour or not.
 
 ### Difference of undefined and null
 Term `undefined` means that the variable is decalred but no value is assinged whereas `null` is a value for a variable.
+
 By the way `undefined` is a type and `null` is an object.

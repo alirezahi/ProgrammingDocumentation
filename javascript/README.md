@@ -42,3 +42,12 @@ It will show a ok cancle screen to ask from user to have some behaviour or not.
 Term `undefined` means that the variable is decalred but no value is assinged whereas `null` is a value for a variable.
 
 By the way `undefined` is a type and `null` is an object.
+
+## Number
+some important global`Number` variables or other number global variables:
+~~~javascript
+Infinity // a number more than any other Number
+Number.POSITIVE_INFINITY // a number more than any other Number
+-Infinity // a number less than any other Number
+Number.NEGATIVE_INFINITY; // a number less than any other Number
+~~~

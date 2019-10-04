@@ -1,4 +1,4 @@
-## Find duplicate models by a field(in this example: `name`):
+### Find duplicate models by a field(in this example: `name`):
 
 ~~~python3
 from django.db.models import Count

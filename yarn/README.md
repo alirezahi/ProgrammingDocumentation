@@ -5,7 +5,8 @@ yarn version --[ patch || minor || major ]
 git push origin --tags
 ~~~
 
-~~~bash
+
 ## upgrade to latest version:
+~~~bash
 yarn add git+https://<git_project_url>#latest
 ~~~

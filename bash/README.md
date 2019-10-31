@@ -21,3 +21,8 @@ With the following command you can store credential of git:
 ~~~shell
 git config credential.helper store
 ~~~
+
+## Save SSH ID
+~~~shell
+ssh-copy-id username@server_ip -p <port>
+~~~

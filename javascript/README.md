@@ -51,3 +51,11 @@ Number.POSITIVE_INFINITY // a number more than any other Number
 -Infinity // a number less than any other Number
 Number.NEGATIVE_INFINITY; // a number less than any other Number
 ~~~
+
+## Shuffle
+shuffle data:
+~~~javascript
+let items = [1,2,3,4];
+items.sort((a, b) => Math.random() > .5 ? -1 : 1);
+console.log(items); // [2,1,4,3]
+~~~

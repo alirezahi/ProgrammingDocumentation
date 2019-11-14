@@ -1,1 +1,1 @@
-To focus on the current editor: <kbrd>ctrl + 1</kbrd>
+To focus on the current editor: <kbd>ctrl + 1</kbd>

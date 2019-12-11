@@ -59,3 +59,10 @@ let items = [1,2,3,4];
 items.sort((a, b) => Math.random() > .5 ? -1 : 1);
 console.log(items); // [2,1,4,3]
 ~~~
+
+## replace all
+JS replace needs to have regex to replace all occurences:
+~~~javascript
+'repetitive'.replace(/e/g, '#')
+~~~
+output: ```r#p#titive```

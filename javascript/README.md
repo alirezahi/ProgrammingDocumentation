@@ -66,3 +66,12 @@ JS replace needs to have regex to replace all occurences:
 'repetitive'.replace(/e/g, '#')
 ~~~
 output: ```r#p#titive```
+
+## diff `in` and `hasOwnProperty`
+var o = { 'foo': 'bar' };
+
+console.log('constructor' in o); // TRUE
+console.log('foo' in o); // TRUE
+
+console.log(o.hasOwnProperty('constructor')); // FALSE
+console.log(o.hasOwnProperty('foo')); // TRUE

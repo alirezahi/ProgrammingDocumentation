@@ -26,3 +26,20 @@ git config credential.helper store
 ~~~shell
 ssh-copy-id username@server_ip -p <port>
 ~~~
+
+## Background Tasks
+To run your process or command/shell script in the background, include an & (an ampersand) at the end of the command/shell script you use to run the job. For example:
+~~~shell
+command &
+~~~
+One can bring a background process to the foreground such as sleep command using the fg command:
+~~~shell
+fg %n
+fg %2
+~~~
+
+Kill a running process named “sleep 10000” using the kill command:
+~~~shell
+kill %n
+kill %2
+~~~

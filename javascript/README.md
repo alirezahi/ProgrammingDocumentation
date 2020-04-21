@@ -77,3 +77,15 @@ console.log('foo' in o); // TRUE
 console.log(o.hasOwnProperty('constructor')); // FALSE
 console.log(o.hasOwnProperty('foo')); // TRUE
 ~~~
+
+
+## diff `push` and `concat`
+`push` is mutable while `concat` doesnt change the original array.
+~~~javascript
+let i = [1,2,3]
+i.push(4)
+console.log(i) // [1,2,3,4]
+i.concat(5)
+console.log(i) // [1,2,3,4]
+~~~
+

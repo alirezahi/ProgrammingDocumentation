@@ -31,3 +31,13 @@ git reset --hard HEAD~1
 
 It will add commit to trash.
 
+# git branch
+To change branch name:
+~~~bash
+git branch -m <oldname> <newname>
+~~~
+
+To change current branch name:
+~~~bash
+git branch -m <newname>
+~~~
